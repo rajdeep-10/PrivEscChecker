@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated scan reports (test output, not part of the tool itself)
+*_report.md
+report.md
+
+# Editor/OS cruft
+.DS_Store
+*.swp

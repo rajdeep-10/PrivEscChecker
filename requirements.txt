@@ -1,0 +1,8 @@
+# PrivEscChecker has no external dependencies.
+#
+# This is a deliberate design choice, not an oversight: the tool is meant
+# to run on a freshly-obtained low-privilege shell on a target system,
+# where installing packages (pip install) may not be possible or may not
+# be noticed by defenders. It only uses Python's standard library
+# (os, sys, stat, subprocess, datetime), and was written to work on
+# everything from Python 2.5.2 up through modern Python 3.
